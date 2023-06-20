@@ -1,7 +1,8 @@
+import { Box } from '@mui/material'
 export default function Hosting() {
     return (
-        <div>
+        <Box>
             Hosting Page
-        </div>
+        </Box>
     )
 }

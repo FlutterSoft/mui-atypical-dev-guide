@@ -27,7 +27,7 @@ export default function Navbar() {
             <List>
                 <ListItem>
                     <ListItemButton>
-                        <Button variant="contained">Home</Button>
+                        <Button variant="contained" onClick={() => navigate("/") }>Home</Button>
                     </ListItemButton>
                 </ListItem>
                 {mainNavbarItems.map((item, index) => (

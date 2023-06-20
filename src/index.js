@@ -17,20 +17,16 @@ import MachineLearning from './pages/Machine Learning/MachineLearning';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
-      <Grid container>
-        <Navbar />
-        <Grid item>
           <Routes>
-            <Route path="/" element={<App />}></Route>
-            <Route path="/authentication" element={<Authentication />}></Route>
-            <Route path="/database" element={<Database />}></Route>
-            <Route path="/storage" element={<Storage />}></Route>
-            <Route path="/hosting" element={<Hosting />}></Route>
-            <Route path="/functions" element={<Functions />}></Route>
-            <Route path="/machine-learning" element={<MachineLearning />}></Route>
+            <Route path="/" element={<App/>}>
+              <Route path="/authentication" element={<Authentication />}/>
+              <Route path="/database" element={<Database />}/>
+              <Route path="/storage" element={<Storage />}/>
+              <Route path="/hosting" element={<Hosting />}/>
+              <Route path="/functions" element={<Functions />}/>
+              <Route path="/machine-learning" element={<MachineLearning />}/>
+            </Route>
           </Routes>
-        </Grid>
-    </Grid>
   </BrowserRouter>
 
 );
