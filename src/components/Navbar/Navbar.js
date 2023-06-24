@@ -25,11 +25,6 @@ export default function Navbar() {
             <Toolbar />
             <Divider />
             <List>
-                <ListItem>
-                    <ListItemButton>
-                        <Button variant="contained" onClick={() => navigate("/") }>Home</Button>
-                    </ListItemButton>
-                </ListItem>
                 {mainNavbarItems.map((item, index) => (
                     <ListItem 
                         key={item.id} 

@@ -3,9 +3,6 @@ export const navbarStyles = {
         width: 320,
         flexShrink: 0,
         '& .MuiDrawer-paper': {
-            // position: 'relative', 
-            // flexShrink: 0,
-            // height: '100vh',
             width: 320,
             boxSizing: 'border-box',
             backgroundColor: '#101F33',
